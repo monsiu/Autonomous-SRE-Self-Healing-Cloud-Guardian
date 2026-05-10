@@ -1,0 +1,362 @@
+[
+  {
+    "id": "inc_001",
+    "text": "DDoS attack detected from IP range 192.168.1.0/24. Rate limit exceeded with 8000 requests per second. Blocked malicious IPs and normalized traffic.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "high",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 45,
+      "timestamp": "2024-04-15T10:30:00Z"
+    },
+    "timestamp": "2026-05-10T18:17:51.743534"
+  },
+  {
+    "id": "inc_002",
+    "text": "CPU usage exceeded 95% threshold on worker-service. Resource exhaustion detected. Scaled up container instances from 3 to 6.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 120,
+      "timestamp": "2024-04-16T14:20:00Z"
+    },
+    "timestamp": "2026-05-10T18:17:51.744285"
+  },
+  {
+    "id": "inc_003",
+    "text": "Database query timeout. Connection pool exhausted with latency spike to 8000ms. Optimized slow queries and cleared cache.",
+    "metadata": {
+      "incident_type": "db_bottleneck",
+      "severity": "high",
+      "action_taken": "optimize_queries_clear_cache",
+      "resolution_time_sec": 180,
+      "timestamp": "2024-04-17T09:15:00Z"
+    },
+    "timestamp": "2026-05-10T18:17:51.745136"
+  },
+  {
+    "id": "inc_004",
+    "text": "High traffic volume from single IP 10.0.0.50. Rate limit breach with 6500 req/sec. Applied rate limiting and blocked source.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "medium",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 30,
+      "timestamp": "2024-04-18T16:45:00Z"
+    },
+    "timestamp": "2026-05-10T18:17:51.745917"
+  },
+  {
+    "id": "inc_005",
+    "text": "CPU throttling on host-node-01 at 98% usage. Worker service degraded performance. Auto-scaled horizontally and load balanced.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 90,
+      "timestamp": "2024-04-19T11:30:00Z"
+    },
+    "timestamp": "2026-05-10T18:17:51.746675"
+  },
+  {
+    "id": "inc_001",
+    "text": "DDoS attack detected from IP range 192.168.1.0/24. Rate limit exceeded with 8000 requests per second. Blocked malicious IPs and normalized traffic.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "high",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 45,
+      "timestamp": "2024-04-15T10:30:00Z"
+    },
+    "timestamp": "2026-05-10T18:18:15.206100"
+  },
+  {
+    "id": "inc_002",
+    "text": "CPU usage exceeded 95% threshold on worker-service. Resource exhaustion detected. Scaled up container instances from 3 to 6.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 120,
+      "timestamp": "2024-04-16T14:20:00Z"
+    },
+    "timestamp": "2026-05-10T18:18:15.207145"
+  },
+  {
+    "id": "inc_003",
+    "text": "Database query timeout. Connection pool exhausted with latency spike to 8000ms. Optimized slow queries and cleared cache.",
+    "metadata": {
+      "incident_type": "db_bottleneck",
+      "severity": "high",
+      "action_taken": "optimize_queries_clear_cache",
+      "resolution_time_sec": 180,
+      "timestamp": "2024-04-17T09:15:00Z"
+    },
+    "timestamp": "2026-05-10T18:18:15.208170"
+  },
+  {
+    "id": "inc_004",
+    "text": "High traffic volume from single IP 10.0.0.50. Rate limit breach with 6500 req/sec. Applied rate limiting and blocked source.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "medium",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 30,
+      "timestamp": "2024-04-18T16:45:00Z"
+    },
+    "timestamp": "2026-05-10T18:18:15.209147"
+  },
+  {
+    "id": "inc_005",
+    "text": "CPU throttling on host-node-01 at 98% usage. Worker service degraded performance. Auto-scaled horizontally and load balanced.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 90,
+      "timestamp": "2024-04-19T11:30:00Z"
+    },
+    "timestamp": "2026-05-10T18:18:15.210302"
+  },
+  {
+    "id": "inc_001",
+    "text": "DDoS attack detected from IP range 192.168.1.0/24. Rate limit exceeded with 8000 requests per second. Blocked malicious IPs and normalized traffic.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "high",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 45,
+      "timestamp": "2024-04-15T10:30:00Z"
+    },
+    "timestamp": "2026-05-10T18:19:06.408680"
+  },
+  {
+    "id": "inc_002",
+    "text": "CPU usage exceeded 95% threshold on worker-service. Resource exhaustion detected. Scaled up container instances from 3 to 6.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 120,
+      "timestamp": "2024-04-16T14:20:00Z"
+    },
+    "timestamp": "2026-05-10T18:19:06.409976"
+  },
+  {
+    "id": "inc_003",
+    "text": "Database query timeout. Connection pool exhausted with latency spike to 8000ms. Optimized slow queries and cleared cache.",
+    "metadata": {
+      "incident_type": "db_bottleneck",
+      "severity": "high",
+      "action_taken": "optimize_queries_clear_cache",
+      "resolution_time_sec": 180,
+      "timestamp": "2024-04-17T09:15:00Z"
+    },
+    "timestamp": "2026-05-10T18:19:06.412488"
+  },
+  {
+    "id": "inc_004",
+    "text": "High traffic volume from single IP 10.0.0.50. Rate limit breach with 6500 req/sec. Applied rate limiting and blocked source.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "medium",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 30,
+      "timestamp": "2024-04-18T16:45:00Z"
+    },
+    "timestamp": "2026-05-10T18:19:06.414285"
+  },
+  {
+    "id": "inc_005",
+    "text": "CPU throttling on host-node-01 at 98% usage. Worker service degraded performance. Auto-scaled horizontally and load balanced.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 90,
+      "timestamp": "2024-04-19T11:30:00Z"
+    },
+    "timestamp": "2026-05-10T18:19:06.415636"
+  },
+  {
+    "id": "inc_001",
+    "text": "DDoS attack detected from IP range 192.168.1.0/24. Rate limit exceeded with 8000 requests per second. Blocked malicious IPs and normalized traffic.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "high",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 45,
+      "timestamp": "2024-04-15T10:30:00Z"
+    },
+    "timestamp": "2026-05-10T19:26:32.184934"
+  },
+  {
+    "id": "inc_002",
+    "text": "CPU usage exceeded 95% threshold on worker-service. Resource exhaustion detected. Scaled up container instances from 3 to 6.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 120,
+      "timestamp": "2024-04-16T14:20:00Z"
+    },
+    "timestamp": "2026-05-10T19:26:32.186650"
+  },
+  {
+    "id": "inc_003",
+    "text": "Database query timeout. Connection pool exhausted with latency spike to 8000ms. Optimized slow queries and cleared cache.",
+    "metadata": {
+      "incident_type": "db_bottleneck",
+      "severity": "high",
+      "action_taken": "optimize_queries_clear_cache",
+      "resolution_time_sec": 180,
+      "timestamp": "2024-04-17T09:15:00Z"
+    },
+    "timestamp": "2026-05-10T19:26:32.188151"
+  },
+  {
+    "id": "inc_004",
+    "text": "High traffic volume from single IP 10.0.0.50. Rate limit breach with 6500 req/sec. Applied rate limiting and blocked source.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "medium",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 30,
+      "timestamp": "2024-04-18T16:45:00Z"
+    },
+    "timestamp": "2026-05-10T19:26:32.189733"
+  },
+  {
+    "id": "inc_005",
+    "text": "CPU throttling on host-node-01 at 98% usage. Worker service degraded performance. Auto-scaled horizontally and load balanced.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 90,
+      "timestamp": "2024-04-19T11:30:00Z"
+    },
+    "timestamp": "2026-05-10T19:26:32.191183"
+  },
+  {
+    "id": "inc_001",
+    "text": "DDoS attack detected from IP range 192.168.1.0/24. Rate limit exceeded with 8000 requests per second. Blocked malicious IPs and normalized traffic.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "high",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 45,
+      "timestamp": "2024-04-15T10:30:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:12.721670"
+  },
+  {
+    "id": "inc_002",
+    "text": "CPU usage exceeded 95% threshold on worker-service. Resource exhaustion detected. Scaled up container instances from 3 to 6.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 120,
+      "timestamp": "2024-04-16T14:20:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:12.726428"
+  },
+  {
+    "id": "inc_003",
+    "text": "Database query timeout. Connection pool exhausted with latency spike to 8000ms. Optimized slow queries and cleared cache.",
+    "metadata": {
+      "incident_type": "db_bottleneck",
+      "severity": "high",
+      "action_taken": "optimize_queries_clear_cache",
+      "resolution_time_sec": 180,
+      "timestamp": "2024-04-17T09:15:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:12.730065"
+  },
+  {
+    "id": "inc_004",
+    "text": "High traffic volume from single IP 10.0.0.50. Rate limit breach with 6500 req/sec. Applied rate limiting and blocked source.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "medium",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 30,
+      "timestamp": "2024-04-18T16:45:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:12.732684"
+  },
+  {
+    "id": "inc_005",
+    "text": "CPU throttling on host-node-01 at 98% usage. Worker service degraded performance. Auto-scaled horizontally and load balanced.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 90,
+      "timestamp": "2024-04-19T11:30:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:12.734784"
+  },
+  {
+    "id": "inc_001",
+    "text": "DDoS attack detected from IP range 192.168.1.0/24. Rate limit exceeded with 8000 requests per second. Blocked malicious IPs and normalized traffic.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "high",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 45,
+      "timestamp": "2024-04-15T10:30:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:42.745401"
+  },
+  {
+    "id": "inc_002",
+    "text": "CPU usage exceeded 95% threshold on worker-service. Resource exhaustion detected. Scaled up container instances from 3 to 6.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 120,
+      "timestamp": "2024-04-16T14:20:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:42.747508"
+  },
+  {
+    "id": "inc_003",
+    "text": "Database query timeout. Connection pool exhausted with latency spike to 8000ms. Optimized slow queries and cleared cache.",
+    "metadata": {
+      "incident_type": "db_bottleneck",
+      "severity": "high",
+      "action_taken": "optimize_queries_clear_cache",
+      "resolution_time_sec": 180,
+      "timestamp": "2024-04-17T09:15:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:42.749532"
+  },
+  {
+    "id": "inc_004",
+    "text": "High traffic volume from single IP 10.0.0.50. Rate limit breach with 6500 req/sec. Applied rate limiting and blocked source.",
+    "metadata": {
+      "incident_type": "ddos",
+      "severity": "medium",
+      "action_taken": "block_ip_range",
+      "resolution_time_sec": 30,
+      "timestamp": "2024-04-18T16:45:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:42.751693"
+  },
+  {
+    "id": "inc_005",
+    "text": "CPU throttling on host-node-01 at 98% usage. Worker service degraded performance. Auto-scaled horizontally and load balanced.",
+    "metadata": {
+      "incident_type": "cpu_surge",
+      "severity": "critical",
+      "action_taken": "scale_up_containers",
+      "resolution_time_sec": 90,
+      "timestamp": "2024-04-19T11:30:00Z"
+    },
+    "timestamp": "2026-05-10T21:34:42.754068"
+  }
+]
