@@ -2,6 +2,39 @@
 
 An intelligent, autonomous incident response system that monitors infrastructure in real-time, diagnoses issues using AI agents, and executes automated remediation actions via SSH on remote servers.
 
+## Live Demo
+
+Try the deployed demo: [Autonomous SRE Self-Healing Cloud Guardian](https://autonomous-sre-self-healing-cloud-g.vercel.app/)
+
+## Hackathon Submission
+
+Built for the **AMD Developer Hackathon** under **Track 1: AI Agents & Agentic Workflows**.
+
+### Problem
+
+Cloud incidents often require engineers to manually inspect metrics, identify root causes, decide on remediation steps, and document what happened. This project turns that workflow into an autonomous SRE assistant that can monitor infrastructure, reason through incidents, execute controlled fixes, and generate post-mortem reports.
+
+### Solution
+
+Aegis combines real-time infrastructure monitoring with a three-agent AI pipeline:
+
+1. **Monitor Agent** detects abnormal system behavior from live metrics.
+2. **Diagnosis Agent** analyzes the incident and compares it with historical patterns.
+3. **Remediation Agent** executes safe, predefined recovery actions over SSH.
+
+The result is an end-to-end self-healing cloud operations dashboard for detecting, diagnosing, and responding to incidents.
+
+### AMD Developer Cloud Fit
+
+The system is designed around cloud-hosted AMD infrastructure, using an AMD droplet as the monitored target environment. It demonstrates how AMD cloud compute can support real operational AI workloads beyond model demos, including live observability, autonomous agents, and infrastructure remediation.
+
+### Judging Highlights
+
+- **Application of Technology** - Multi-agent incident response system with real metrics, WebSockets, SSH remediation, vector memory, and automated reporting.
+- **Business Value** - Reduces manual SRE effort, shortens incident response time, and creates consistent post-mortem documentation.
+- **Originality** - Applies AI agents to autonomous cloud reliability and self-healing infrastructure workflows.
+- **Completeness** - Includes a deployed frontend demo, backend API, test incident triggers, remediation flow, and local setup instructions.
+
 ## ✨ Features
 
 - **Real-time Monitoring** - Live metrics from AMD droplet via Prometheus node_exporter
